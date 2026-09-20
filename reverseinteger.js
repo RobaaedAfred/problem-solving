@@ -1,4 +1,4 @@
-var reverse = function(x) {
+let reverse = function(x) {
   const reversed = String(Math.abs(x)).split('').reverse().join('');
 
   if (reversed > Math.pow(2, 31)) {

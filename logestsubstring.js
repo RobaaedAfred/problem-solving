@@ -1,4 +1,4 @@
-var lengthOfLongestSubstring = function(s) {
+const lengthOfLongestSubstring = function(s) {
   const map = {};
   let offset = 0;
 

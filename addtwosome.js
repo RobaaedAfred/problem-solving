@@ -1,4 +1,4 @@
-var addTwoNumbers = function(l1, l2) {
+let addTwoNumbers = function(l1, l2) {
   const result = new ListNode();
 
   for (let tail = result, carry = 0; l1 || l2 || carry;) {
